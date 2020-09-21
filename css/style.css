@@ -353,7 +353,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(42,43,42, 0.8);
   transition: 0.4s;
 }
 
@@ -461,13 +461,20 @@ h6 {
   font-weight: 500;
   position: relative;
 }
+.section-header h2 {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
 
 .section-header p {
   text-align: center;
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #fff;
   width: 50%;
 }
 
@@ -477,7 +484,9 @@ h6 {
 .section-bg {
   background: #f9ffc0;
 }
-
+.section-about {
+  background: #040405;
+}
 /* About Us Section
 --------------------------------*/
 
@@ -642,6 +651,7 @@ h6 {
 #why-us {
   padding: 60px 0;
   background: #231F20;
+  
 }
 
 #why-us .section-header h3,
@@ -1362,7 +1372,7 @@ h6 {
     width: 80%;
     float: none;
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
 
   #why-us .card {
