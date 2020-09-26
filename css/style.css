@@ -189,10 +189,17 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
-  margin-bottom: 40px;
+  color: #F4AF1B;
+  margin-bottom: 0px;
+  font-size: 58px;
+  font-weight: 900;
+}
+
+#intro .intro-info h6 {
+  color: #F4AF1B;
+  margin-bottom: 20px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 #intro .intro-info h2 span {
@@ -493,6 +500,7 @@ h6 {
 #about {
   background: #fff;
   padding: 60px 0;
+  
 }
 
 #about .about-container .background {
@@ -659,10 +667,10 @@ h6 {
   color: #fff;
 }
 
-#why-us .card {
+#about .card {
   background: #020304;
-  border-color: #D4981B;
-  border-radius: 10px;
+  border-color: #F4AF1B;
+  border-radius: 20px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
@@ -671,8 +679,14 @@ h6 {
   height: 100%;
 }
 
+#about .card-img {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
 #why-us .card:hover {
-  background: #D4981B;
+  background: #000000;
   border-color: #D4981B;
 }
 
@@ -682,14 +696,15 @@ h6 {
   color: #f8febf;
 }
 
-#why-us .card h5 {
+#about .card h5 {
   font-size: 22px;
   font-weight: 600;
+  color: #F4AF1B;
 }
 
-#why-us .card p {
+#about .card p {
   font-size: 15px;
-  color: #f8febf;
+  color: #F4AF1B;
 }
 
 #why-us .card .readmore {
@@ -1375,7 +1390,7 @@ h6 {
     text-align: left;
   }
 
-  #why-us .card {
+  #about .card {
     margin: 0;
   }
 }
@@ -1392,6 +1407,10 @@ h6 {
   }
 
   #intro .intro-info h2 {
+    font-size: 44px;
+    margin-bottom: 0px;
+  }
+  #intro .intro-info h6 {
     font-size: 34px;
     margin-bottom: 30px;
   }
@@ -1420,4 +1439,46 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+
+@media (min-width: 1024px){ 
+  .tricontainer {
+    width: 960px;
+    margin: 0 auto;
+    &:after {
+      content: "";
+      clear: both;
+      width: 100%;
+    }
+  .tricolm {
+    width: 300px;
+    float: left;
+    margin: 0 10px;  
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .tricolm {
+    clear: both;
+    padding: 20px 0;
+    border-bottom: 1px solid #CCC;
+    &:after {
+      content: "";
+      clear: both;
+      width: 100%;
+    }
+  }
+
+}
+
+
+
+@media (max-width: 599px) {
+  .tricolm {
+    padding: 10px 0;
+    border-bottom: 1px solid #CCC;
+  }
+
 }
