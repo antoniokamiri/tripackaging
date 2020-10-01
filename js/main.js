@@ -111,8 +111,8 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  // portfolio carousel (uses the Owl Carousel library)
+  $(".portfolio-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
