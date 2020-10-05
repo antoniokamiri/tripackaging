@@ -974,12 +974,12 @@ h6 {
 }
 
 #contact .info {
-  color: #283d50;
+  color: #000000;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #F4AF1B;
   float: left;
   line-height: 1;
 }
@@ -991,8 +991,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #F4AF1B;
+  border: 1px solid #F4AF1B;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1032,7 +1032,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #F4AF1B;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1041,7 +1041,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #F4AF1B;
   cursor: pointer;
 }
 
@@ -1159,7 +1159,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #F4AF1B;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1170,7 +1170,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #F4AF1B;
 }
 
 #footer .copyright {
